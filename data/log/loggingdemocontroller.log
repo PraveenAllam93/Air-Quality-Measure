@@ -1,0 +1,54 @@
+2023-02-22T11:32:42.184+05:30  INFO 1541 --- [main] com.example.data.DataApplication         : Starting DataApplication using Java 19.0.1 with PID 1541 (/Users/praveenallam/Desktop/air_quality_measure/data/target/classes started by praveenallam in /Users/praveenallam/Desktop/air_quality_measure/data)
+2023-02-22T11:32:42.196+05:30  INFO 1541 --- [main] com.example.data.DataApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T11:32:42.873+05:30  INFO 1541 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-22T11:32:42.881+05:30  INFO 1541 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T11:32:42.882+05:30  INFO 1541 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T11:32:42.993+05:30  INFO 1541 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T11:32:42.993+05:30  INFO 1541 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 750 ms
+2023-02-22T11:32:43.275+05:30  INFO 1541 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-22T11:32:43.284+05:30  INFO 1541 --- [main] com.example.data.DataApplication         : Started DataApplication in 1.415 seconds (process running for 1.829)
+2023-02-22T11:32:45.688+05:30  INFO 1541 --- [pool-2-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:32:45.689+05:30  INFO 1541 --- [pool-2-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_1_metadata
+2023-02-22T11:32:45.690+05:30  INFO 1541 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 1thing!
+2023-02-22T11:32:47.477+05:30  INFO 1541 --- [pool-3-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:32:47.478+05:30  INFO 1541 --- [pool-3-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_2_metadata
+2023-02-22T11:32:47.479+05:30  INFO 1541 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 2thing!
+2023-02-22T11:32:49.235+05:30  INFO 1541 --- [pool-4-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:32:49.236+05:30  INFO 1541 --- [pool-4-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_3_metadata
+2023-02-22T11:32:49.237+05:30  INFO 1541 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 3thing!
+2023-02-22T11:32:49.244+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:32:50.250+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:32:51.257+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
+2023-02-22T11:32:53.286+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:32:54.292+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:32:55.299+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
+2023-02-22T11:33:03.287+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:33:04.291+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:33:05.298+05:30  INFO 1541 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
+2023-02-22T11:34:14.792+05:30  INFO 1611 --- [main] com.example.data.DataApplication         : Starting DataApplication using Java 19.0.1 with PID 1611 (/Users/praveenallam/Desktop/air_quality_measure/data/target/classes started by praveenallam in /Users/praveenallam/Desktop/air_quality_measure/data)
+2023-02-22T11:34:14.794+05:30  INFO 1611 --- [main] com.example.data.DataApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T11:34:15.464+05:30  INFO 1611 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-22T11:34:15.472+05:30  INFO 1611 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T11:34:15.473+05:30  INFO 1611 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T11:34:15.532+05:30  INFO 1611 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T11:34:15.532+05:30  INFO 1611 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 702 ms
+2023-02-22T11:34:15.780+05:30  INFO 1611 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-22T11:34:15.789+05:30  INFO 1611 --- [main] com.example.data.DataApplication         : Started DataApplication in 1.267 seconds (process running for 1.485)
+2023-02-22T11:34:17.915+05:30  INFO 1611 --- [pool-1-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:34:17.916+05:30  INFO 1611 --- [pool-1-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_1_metadata
+2023-02-22T11:34:17.917+05:30  INFO 1611 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 1thing!
+2023-02-22T11:34:19.753+05:30  INFO 1611 --- [pool-2-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:34:19.753+05:30  INFO 1611 --- [pool-2-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_2_metadata
+2023-02-22T11:34:19.753+05:30  INFO 1611 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 2thing!
+2023-02-22T11:34:21.592+05:30  INFO 1611 --- [pool-3-thread-1] c.a.s.iot.client.core.AwsIotConnection   : Connection successfully established
+2023-02-22T11:34:21.593+05:30  INFO 1611 --- [pool-3-thread-1] c.a.s.i.c.core.AbstractAwsIotClient      : Client connection active: floor_3_metadata
+2023-02-22T11:34:21.593+05:30  INFO 1611 --- [scheduling-1] com.example.data.util.MQTTConfig         : Connected to the floor 3thing!
+2023-02-22T11:34:21.599+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:34:22.606+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:34:23.609+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
+2023-02-22T11:34:25.788+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:34:26.795+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:34:27.802+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
+2023-02-22T11:34:35.792+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 1!
+2023-02-22T11:34:36.794+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 2!
+2023-02-22T11:34:37.801+05:30  INFO 1611 --- [scheduling-1] com.example.data.Service.service         : Data added successfully for the floor, 3!
