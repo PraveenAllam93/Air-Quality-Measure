@@ -1,0 +1,43 @@
+2023-02-22T17:28:22.186+05:30  INFO 14844 --- [main] c.example.backend.aqms.AqmsApplication   : Starting AqmsApplication using Java 19.0.1 with PID 14844 (/Users/praveenallam/Desktop/air_quality_measure/aqms/target/classes started by praveenallam in /Users/praveenallam/Desktop/air_quality_measure/aqms)
+2023-02-22T17:28:22.194+05:30  INFO 14844 --- [main] c.example.backend.aqms.AqmsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T17:28:22.902+05:30  INFO 14844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T17:28:22.911+05:30  INFO 14844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T17:28:22.912+05:30  INFO 14844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T17:28:22.995+05:30  INFO 14844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T17:28:22.995+05:30  INFO 14844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 759 ms
+2023-02-22T17:28:23.061+05:30  INFO 14844 --- [main] c.e.backend.aqms.Config.dynamoDBConfig   : Dynamo db connection established successfully
+2023-02-22T17:28:23.067+05:30  INFO 14844 --- [main] c.e.backend.aqms.Config.dynamoDBConfig   : The AWS Access key and Secret key are correct
+2023-02-22T17:28:23.648+05:30  INFO 14844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T17:28:23.656+05:30  INFO 14844 --- [main] c.example.backend.aqms.AqmsApplication   : Started AqmsApplication in 1.784 seconds (process running for 2.096)
+2023-02-22T17:28:32.413+05:30  INFO 14844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T17:28:34.228+05:30  INFO 14844 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:28:34.229+05:30  INFO 14844 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:28:34.229+05:30  INFO 14844 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The lastest readings of aqi data in the first floor is fetched successfully
+2023-02-22T17:28:39.720+05:30  INFO 14844 --- [http-nio-8080-exec-3] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:28:39.721+05:30  INFO 14844 --- [http-nio-8080-exec-3] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:28:41.149+05:30  INFO 14844 --- [http-nio-8080-exec-4] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:28:41.150+05:30  INFO 14844 --- [http-nio-8080-exec-4] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:28:41.150+05:30  INFO 14844 --- [http-nio-8080-exec-4] c.e.b.a.R.DynamoDbRepository             : The lastest readings of aqi data in the second floor is fetched successfully
+2023-02-22T17:28:49.834+05:30  INFO 14844 --- [http-nio-8080-exec-5] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:28:49.836+05:30  INFO 14844 --- [http-nio-8080-exec-5] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:28:49.838+05:30  INFO 14844 --- [http-nio-8080-exec-5] c.e.b.a.R.DynamoDbRepository             : The lastest readings of aqi data in the third floor is fetched successfully
+2023-02-22T17:31:32.707+05:30  INFO 15180 --- [main] c.example.backend.aqms.AqmsApplication   : Starting AqmsApplication using Java 19.0.1 with PID 15180 (/Users/praveenallam/Desktop/air_quality_measure/aqms/target/classes started by praveenallam in /Users/praveenallam/Desktop/air_quality_measure/aqms)
+2023-02-22T17:31:32.709+05:30  INFO 15180 --- [main] c.example.backend.aqms.AqmsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T17:31:33.349+05:30  INFO 15180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T17:31:33.356+05:30  INFO 15180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T17:31:33.356+05:30  INFO 15180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T17:31:33.412+05:30  INFO 15180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T17:31:33.413+05:30  INFO 15180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 668 ms
+2023-02-22T17:31:33.466+05:30  INFO 15180 --- [main] c.e.backend.aqms.Config.dynamoDBConfig   : Dynamo db connection established successfully
+2023-02-22T17:31:33.472+05:30  INFO 15180 --- [main] c.e.backend.aqms.Config.dynamoDBConfig   : The AWS Access key and Secret key are correct
+2023-02-22T17:31:33.991+05:30  INFO 15180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T17:31:33.999+05:30  INFO 15180 --- [main] c.example.backend.aqms.AqmsApplication   : Started AqmsApplication in 1.57 seconds (process running for 1.895)
+2023-02-22T17:31:42.357+05:30  INFO 15180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T17:31:45.583+05:30  INFO 15180 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:31:45.583+05:30  INFO 15180 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:31:45.583+05:30  INFO 15180 --- [http-nio-8080-exec-1] c.e.b.a.R.DynamoDbRepository             : The lastest readings of aqi data in the first floor is fetched successfully
+2023-02-22T17:31:53.046+05:30  INFO 15180 --- [http-nio-8080-exec-2] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:31:53.047+05:30  INFO 15180 --- [http-nio-8080-exec-2] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
+2023-02-22T17:31:53.048+05:30  INFO 15180 --- [http-nio-8080-exec-2] c.e.b.a.R.DynamoDbRepository             : The lastest readings of aqi data in the third floor is fetched successfully
+2023-02-22T17:32:00.307+05:30  INFO 15180 --- [http-nio-8080-exec-3] c.e.b.a.R.DynamoDbRepository             : The device is down for more than 30 minutes, please check
+2023-02-22T17:32:00.308+05:30  INFO 15180 --- [http-nio-8080-exec-3] c.e.b.a.R.DynamoDbRepository             : The complete aqi data is fetched successfully
