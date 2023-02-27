@@ -1,0 +1,6 @@
+com/example/backend/aqms/RepositoryClass/DynamoDbRepository.class
+com/example/backend/aqms/Config/dynamoDBConfig.class
+com/example/backend/aqms/ControllerClass/controller.class
+com/example/backend/aqms/AqmsApplication.class
+com/example/backend/aqms/EntityClass/AqmsEntity.class
+com/example/backend/aqms/Config/dynamoDBConfig$1.class

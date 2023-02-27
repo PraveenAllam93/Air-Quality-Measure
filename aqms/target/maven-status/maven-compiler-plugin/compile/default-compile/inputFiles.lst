@@ -1,0 +1,5 @@
+/Users/praveenallam/Desktop/air_quality_measure/aqms/src/main/java/com/example/backend/aqms/AqmsApplication.java
+/Users/praveenallam/Desktop/air_quality_measure/aqms/src/main/java/com/example/backend/aqms/ControllerClass/controller.java
+/Users/praveenallam/Desktop/air_quality_measure/aqms/src/main/java/com/example/backend/aqms/Config/dynamoDBConfig.java
+/Users/praveenallam/Desktop/air_quality_measure/aqms/src/main/java/com/example/backend/aqms/RepositoryClass/DynamoDbRepository.java
+/Users/praveenallam/Desktop/air_quality_measure/aqms/src/main/java/com/example/backend/aqms/EntityClass/AqmsEntity.java
